@@ -1,11 +1,19 @@
 import logo from './logo.svg';
-import Greeting from './Greeting';
+import Header from './Header';
+import CatPhotos from './CatPhotos';
+import CatList from './CatList';
 import './App.css';
 
 function App() {
-  return (
-    <Greeting greeting='Sup Peeps'/>
-  );
+	return (
+		<div>
+			<Header title="CatPhotoApp" />
+			<main>
+				<CatPhotos />
+        <CatList />
+			</main>
+		</div>
+	);
 }
 
 export default App;
