@@ -10,7 +10,7 @@ function App() {
 			<Header title="CatPhotoApp" />
 			<main>
 				<CatPhotos />
-        <CatList />
+				<CatList />
 			</main>
 		</div>
 	);
